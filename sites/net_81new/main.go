@@ -47,11 +47,8 @@ func Site() site.SiteA {
 				t = strings.TrimSpace(t)
 
 				switch t {
-				case
-					"[八一中文网 请记住",
-					"手机版访问 m.81new.com 绿色无弹窗]",
-					"":
-					continue
+					case "[八一中文网 请记住", "手机版访问 m.81new.com 绿色无弹窗]", "":
+						continue
 				}
 
 				M = append(M, t)

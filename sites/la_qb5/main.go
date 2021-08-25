@@ -19,9 +19,9 @@ func Site() site.SiteA {
 			`https://www\.qb5\.la/book_\d+/\d+\.html`,
 		},
 		BookInfo: site.Type1BookInfo(
-			`//*[@id="info"]/h1/text()`,
-			`//*[@id="picbox"]/div/img`,
-			`//*[@id="info"]/h1/small/a/text()`,
+			`//meta[@property="og:novel:book_name"]/@content`,
+			`//meta[@property="og:image"]/@content`,
+			`//meta[@property="og:novel:author"]/@content`,
 			`//div[@class="zjbox"]/dl[@class="zjlist"]/dd/a`),
 		Chapter: site.Type1Chapter(`//*[@id="content"]/text()`),
 		Search: site.Type1SearchAfter("https://www.qb5.la/modules/article/search.php",
