@@ -42,7 +42,8 @@ FictionDown 是一个命令行界面的小说爬取工具
 | 站点名称     | 网址              | 是否正版 | 是否分卷 | 支持站内搜索 | 代码文件                       |
 | ------------ | ----------------- | -------- | -------- | ------------ | ------------------------------ |
 | 起点中文网   | www.qidian.com    | ✅       | ✅       | ✅           | sites\com_qidian\main.go           |
-| 笔趣阁       | www.b520.cc | ❌       | ❌       | ✅           | sites\cc_b520\main.go    |
+| 笔趣阁A       | www.b520.cc | ❌       | ❌       | ✅           | sites\cc_b520\main.go    |
+| 笔趣阁B       | www.qu-la.com | ❌       | ❌       | ✅           | sites\com_qula\main.go    |
 | 顶点小说     | www.ddyueshu.com   | ❌       | ❌       | ✅           | sites\com_ddyueshu\main.go      |
 | 全本小说网     | www.qb5.la   | ❌       | ❌       | ✅           | sites\la_qb5\main.go      |
 | 新八一中文网 | www.81new.net     | ❌       | ❌       | ✅           | sites\net_new81\main.go            |
